@@ -1,0 +1,126 @@
+/* line 1, ../sass/module/_navbar.scss */
+.navbar {
+  border-radius: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed !important;
+  z-index: 20;
+}
+
+/* line 10, ../sass/module/_navbar.scss */
+.nav li a {
+  color: #fff !important;
+}
+
+/* line 14, ../sass/module/_navbar.scss */
+.navbar-brand {
+  padding: 2px 0 2px 10px !important;
+}
+
+/* line 18, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #8b1c31 !important;
+}
+
+/* line 22, ../sass/module/_navbar.scss */
+.navbar-inverse {
+  background-color: #8b1c31 !important;
+}
+
+/* line 1, ../sass/module/_heroslider.scss */
+.heroslider {
+  margin-top: 50px;
+}
+
+/* Makes images fully responsive */
+/* line 7, ../sass/module/_heroslider.scss */
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+/* line 19, ../sass/module/_heroslider.scss */
+.carousel-inner {
+  border-radius: 15px;
+}
+
+/* line 23, ../sass/module/_heroslider.scss */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 200px;
+  bottom: 200px !important;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+}
+/* line 30, ../sass/module/_heroslider.scss */
+.carousel-caption h1 {
+  color: #fff !important;
+  font-size: 45px;
+  font-family: 'Concert One', cursive;
+}
+/* line 35, ../sass/module/_heroslider.scss */
+.carousel-caption .primary_btn {
+  color: #222;
+  margin-top: 20px;
+}
+/* line 39, ../sass/module/_heroslider.scss */
+.carousel-caption .primary_btn:hover {
+  color: #8b1c31;
+}
+
+@media (max-width: 900px) {
+  /* line 44, ../sass/module/_heroslider.scss */
+  .carousel-caption {
+    display: none;
+  }
+}
+/* line 49, ../sass/module/_heroslider.scss */
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+/* line 61, ../sass/module/_heroslider.scss */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/* line 66, ../sass/module/_heroslider.scss */
+.carousel .carousel-control {
+  color: #8b1c31;
+}
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+/* line 74, ../sass/module/_heroslider.scss */
+.section-white {
+  padding: 10px 0;
+}
+
+/* line 78, ../sass/module/_heroslider.scss */
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 85, ../sass/module/_heroslider.scss */
+  .section-white {
+    padding: 1.5em 0;
+  }
+}
