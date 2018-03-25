@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+
+body{
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+	color: $primary-color !important;
+	font-family: 'Arima Madurai', cursive !important;
+	font-size: 2em !important;
+}
+
+// section padding
+.section-padding{
+	padding: $section-padding;
+}
+
+// section title
+.heading-title{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 0;
+	text-decoration: underline;
+	font-family: 'Love Ya Like A Sister', cursive;
+	letter-spacing: 4px;
+}
+
+p{
+	padding: 10px 0;
+}

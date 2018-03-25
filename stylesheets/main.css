@@ -1,3 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister");
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai");
+/* line 4, ../sass/base/_base.scss */
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  color: #8b1c31 !important;
+  font-family: 'Arima Madurai', cursive !important;
+  font-size: 2em !important;
+}
+
+/* line 12, ../sass/base/_base.scss */
+.section-padding {
+  padding: 20px 0;
+}
+
+/* line 17, ../sass/base/_base.scss */
+.heading-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: underline;
+  font-family: 'Love Ya Like A Sister', cursive;
+  letter-spacing: 4px;
+}
+
+/* line 27, ../sass/base/_base.scss */
+p {
+  padding: 10px 0;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   border-radius: 0 !important;
@@ -207,7 +238,7 @@ h6.description {
   width: 30px;
   height: 30px;
   text-align: center;
-  border: 1px solid #88C425;
+  border: 1px solid #8b1c31;
   margin: 2px;
   padding: 5px;
   display: inline-block;
@@ -238,7 +269,7 @@ h6.description {
 /* line 82, ../sass/module/_team.scss */
 .img-box a:hover li {
   border-color: #fff;
-  color: #88C425;
+  color: #8b1c31;
 }
 
 /* line 1, ../sass/module/_gallery.scss */
@@ -253,4 +284,11 @@ h6.description {
 /* line 9, ../sass/module/_gallery.scss */
 .gallery-image:hover {
   transform: scale(1.05);
+}
+
+/* line 1, ../sass/module/_footer.scss */
+footer {
+  background-color: #8b1c31;
+  color: #fff;
+  padding: 5px 0;
 }
