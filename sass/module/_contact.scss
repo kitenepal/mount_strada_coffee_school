@@ -1,3 +1,19 @@
+.form-control{
+     border-radius: 0 !important;
+}
+
+.address{
+     h4{
+          font-weight: bold;
+     }
+     a{
+          color: $primary-color;
+     }
+     hr{
+          margin: 2px;
+     }
+}
+
 // social media
 .social:hover {
      -webkit-transform: scale(1.1);
