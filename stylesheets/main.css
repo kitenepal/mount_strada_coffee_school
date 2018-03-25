@@ -240,3 +240,17 @@ h6.description {
   border-color: #fff;
   color: #88C425;
 }
+
+/* line 1, ../sass/module/_gallery.scss */
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+/* line 9, ../sass/module/_gallery.scss */
+.gallery-image:hover {
+  transform: scale(1.05);
+}
