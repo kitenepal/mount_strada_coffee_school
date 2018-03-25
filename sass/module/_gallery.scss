@@ -4,8 +4,11 @@
 	height: 100%;
 	object-fit: cover;
 	transition: transform 400ms ease-out;
+	margin: 10px 0;
+	opacity: 0.8;
 }
 
 .gallery-image:hover {
 	transform: scale(1.05);
+	opacity: 1;
 }

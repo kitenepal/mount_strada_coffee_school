@@ -35,7 +35,7 @@ p {
   color: #fff;
   transition: 0.5s;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 /* line 38, ../sass/base/_base.scss */
 .primary_btn:hover {
@@ -307,11 +307,14 @@ h6.description {
   height: 100%;
   object-fit: cover;
   transition: transform 400ms ease-out;
+  margin: 10px 0;
+  opacity: 0.8;
 }
 
-/* line 9, ../sass/module/_gallery.scss */
+/* line 11, ../sass/module/_gallery.scss */
 .gallery-image:hover {
   transform: scale(1.05);
+  opacity: 1;
 }
 
 /* line 2, ../sass/module/_contact.scss */

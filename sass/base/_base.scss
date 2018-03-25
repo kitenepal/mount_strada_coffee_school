@@ -34,7 +34,7 @@ p{
 	color: #fff;
 	transition: 0.5s;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: bold !important;
 	&:hover{
 		background-color: #fff;
 		border: 1px solid $primary-color;
