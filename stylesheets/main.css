@@ -29,6 +29,21 @@ p {
   padding: 10px 0;
 }
 
+/* line 32, ../sass/base/_base.scss */
+.primary_btn {
+  background-color: #8b1c31;
+  color: #fff;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 38, ../sass/base/_base.scss */
+.primary_btn:hover {
+  background-color: #fff;
+  border: 1px solid #8b1c31;
+  color: #8b1c31 !important;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   border-radius: 0 !important;
@@ -176,7 +191,7 @@ h6.description {
 
 /* line 14, ../sass/module/_team.scss */
 .profile h1 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
   margin: 10px 0 0 0;
 }
@@ -184,7 +199,7 @@ h6.description {
 /* line 19, ../sass/module/_team.scss */
 .profile h2 {
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: bold;
   margin-top: 5px;
 }
 
@@ -194,8 +209,12 @@ h6.description {
   display: block;
   position: relative;
 }
+/* line 28, ../sass/module/_team.scss */
+.profile .img-box img {
+  border-radius: 10px;
+}
 
-/* line 29, ../sass/module/_team.scss */
+/* line 32, ../sass/module/_team.scss */
 .profile .img-box:after {
   content: "";
   opacity: 0;
@@ -207,7 +226,7 @@ h6.description {
   bottom: 0;
 }
 
-/* line 39, ../sass/module/_team.scss */
+/* line 42, ../sass/module/_team.scss */
 .img-box ul {
   position: absolute;
   z-index: 2;
@@ -220,20 +239,20 @@ h6.description {
   opacity: 0;
 }
 
-/* line 50, ../sass/module/_team.scss */
+/* line 53, ../sass/module/_team.scss */
 .profile .img-box:after, .img-box ul, .img-box ul li {
   -webkit-transition: all 0.5s ease-in-out 0s;
   -moz-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
 
-/* line 55, ../sass/module/_team.scss */
+/* line 58, ../sass/module/_team.scss */
 .img-box ul i {
   font-size: 20px;
   letter-spacing: 10px;
 }
 
-/* line 59, ../sass/module/_team.scss */
+/* line 62, ../sass/module/_team.scss */
 .img-box ul li {
   width: 30px;
   height: 30px;
@@ -244,32 +263,41 @@ h6.description {
   display: inline-block;
 }
 
-/* line 68, ../sass/module/_team.scss */
+/* line 71, ../sass/module/_team.scss */
 .img-box a {
   color: #fff;
 }
 
-/* line 71, ../sass/module/_team.scss */
+/* line 74, ../sass/module/_team.scss */
 .img-box:hover:after {
   opacity: 1;
 }
 
-/* line 74, ../sass/module/_team.scss */
+/* line 77, ../sass/module/_team.scss */
 .img-box:hover ul {
   opacity: 1;
 }
 
-/* line 77, ../sass/module/_team.scss */
+/* line 80, ../sass/module/_team.scss */
 .img-box ul a {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* line 82, ../sass/module/_team.scss */
+/* line 85, ../sass/module/_team.scss */
 .img-box a:hover li {
   border-color: #fff;
   color: #8b1c31;
+}
+
+/* line 1, ../sass/module/_services.scss */
+.services-item {
+  padding: 20px;
+}
+/* line 3, ../sass/module/_services.scss */
+.services-item h3 {
+  font-weight: bold;
 }
 
 /* line 1, ../sass/module/_gallery.scss */
@@ -284,6 +312,47 @@ h6.description {
 /* line 9, ../sass/module/_gallery.scss */
 .gallery-image:hover {
   transform: scale(1.05);
+}
+
+/* line 2, ../sass/module/_contact.scss */
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* line 7, ../sass/module/_contact.scss */
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+/* line 22, ../sass/module/_contact.scss */
+#social-fb:hover {
+  color: #3B5998;
+}
+
+/* line 25, ../sass/module/_contact.scss */
+#social-tw:hover {
+  color: #4099FF;
+}
+
+/* line 28, ../sass/module/_contact.scss */
+#social-gp:hover {
+  color: #d34836;
+}
+
+/* line 31, ../sass/module/_contact.scss */
+#social-em:hover {
+  color: #f39c12;
 }
 
 /* line 1, ../sass/module/_footer.scss */

@@ -27,3 +27,17 @@ body{
 p{
 	padding: 10px 0;
 }
+
+// button
+.primary_btn{
+	background-color: $primary-color;
+	color: #fff;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:hover{
+		background-color: #fff;
+		border: 1px solid $primary-color;
+		color: $primary-color !important;
+	}
+}
