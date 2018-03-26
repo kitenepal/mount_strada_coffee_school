@@ -56,6 +56,12 @@
   margin: 0;
   padding: 0 25px 25px 0;
   text-align: right;
+  li{
+    border-color: $primary-color !important;
+  }
+}
+.carousel-indicators .active{
+  background-color: $primary-color !important;
 }
 
 .carousel-control.left,

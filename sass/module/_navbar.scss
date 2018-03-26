@@ -16,9 +16,17 @@
 }
 
 .navbar-inverse .navbar-toggle .icon-bar{
-	background-color: $primary-color !important;
+	background-color: #fff !important;
 }
 
 .navbar-inverse{
+	background-color: $primary-color !important;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: $secondary-color !important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
 	background-color: $primary-color !important;
 }
