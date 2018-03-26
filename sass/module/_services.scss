@@ -4,3 +4,18 @@
 		font-weight: bold;
 	}
 }
+
+// modal
+.modal-header .close{
+	opacity: 1;
+	&:hover{
+	color: $primary-color;
+	opacity: 1;
+	}
+}
+.modal-title{
+	font-weight: bold;
+}
+.modal-img{
+	padding: 5px 0;
+}

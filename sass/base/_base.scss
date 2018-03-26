@@ -42,3 +42,15 @@ p{
 		color: $primary-color !important;
 	}
 }
+
+.btn{
+	&:focus{
+		outline: none !important;
+		color: #fff !important;
+	}
+	&:hover{
+		background-color: #fff;
+		border: 1px solid $primary-color;
+		color: $primary-color !important;
+	}
+}
