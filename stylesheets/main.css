@@ -192,11 +192,6 @@ p {
   }
 }
 /* line 1, ../sass/module/_team.scss */
-.team {
-  padding: 75px 0;
-}
-
-/* line 4, ../sass/module/_team.scss */
 h6.description {
   font-weight: bold;
   letter-spacing: 2px;
@@ -205,37 +200,37 @@ h6.description {
   padding-bottom: 5px;
 }
 
-/* line 11, ../sass/module/_team.scss */
+/* line 8, ../sass/module/_team.scss */
 .profile {
   margin-top: 25px;
 }
 
-/* line 14, ../sass/module/_team.scss */
+/* line 11, ../sass/module/_team.scss */
 .profile h1 {
   font-weight: bold;
   font-size: 20px;
   margin: 10px 0 0 0;
 }
 
-/* line 19, ../sass/module/_team.scss */
+/* line 16, ../sass/module/_team.scss */
 .profile h2 {
   font-size: 14px;
   font-weight: bold;
   margin-top: 5px;
 }
 
-/* line 24, ../sass/module/_team.scss */
+/* line 21, ../sass/module/_team.scss */
 .profile .img-box {
   opacity: 1;
   display: block;
   position: relative;
 }
-/* line 28, ../sass/module/_team.scss */
+/* line 25, ../sass/module/_team.scss */
 .profile .img-box img {
   border-radius: 10px;
 }
 
-/* line 32, ../sass/module/_team.scss */
+/* line 29, ../sass/module/_team.scss */
 .profile .img-box:after {
   content: "";
   opacity: 0;
@@ -247,7 +242,7 @@ h6.description {
   bottom: 0;
 }
 
-/* line 42, ../sass/module/_team.scss */
+/* line 39, ../sass/module/_team.scss */
 .img-box ul {
   position: absolute;
   z-index: 2;
@@ -260,20 +255,20 @@ h6.description {
   opacity: 0;
 }
 
-/* line 53, ../sass/module/_team.scss */
+/* line 50, ../sass/module/_team.scss */
 .profile .img-box:after, .img-box ul, .img-box ul li {
   -webkit-transition: all 0.5s ease-in-out 0s;
   -moz-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
 
-/* line 58, ../sass/module/_team.scss */
+/* line 55, ../sass/module/_team.scss */
 .img-box ul i {
   font-size: 20px;
   letter-spacing: 10px;
 }
 
-/* line 62, ../sass/module/_team.scss */
+/* line 59, ../sass/module/_team.scss */
 .img-box ul li {
   width: 30px;
   height: 30px;
@@ -284,29 +279,29 @@ h6.description {
   display: inline-block;
 }
 
-/* line 71, ../sass/module/_team.scss */
+/* line 68, ../sass/module/_team.scss */
 .img-box a {
   color: #fff;
 }
 
-/* line 74, ../sass/module/_team.scss */
+/* line 71, ../sass/module/_team.scss */
 .img-box:hover:after {
   opacity: 1;
 }
 
-/* line 77, ../sass/module/_team.scss */
+/* line 74, ../sass/module/_team.scss */
 .img-box:hover ul {
   opacity: 1;
 }
 
-/* line 80, ../sass/module/_team.scss */
+/* line 77, ../sass/module/_team.scss */
 .img-box ul a {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* line 85, ../sass/module/_team.scss */
+/* line 82, ../sass/module/_team.scss */
 .img-box a:hover li {
   border-color: #fff;
   color: #8b1c31;
